@@ -10,16 +10,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description = <<-DESC
   TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nathanlanza/Reuse'
-  s.authors = { 'PROJECT_OWNER' => 'USER_EMAIL' }
+  s.homepage = 'https://github.com/nathanlanza/Reuse'
+  s.authors = { 'Nathan Lanza' => 'nathan@lanza.io' }
   s.source = { :git => 'https://github.com/nathanlanza/Reuse.git', :tag => s.version }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'Source/*.swift'
-  s.resource_bundles = {
-    'Reuse' => ['Resources/**/*.{png}']
-  }
 end
