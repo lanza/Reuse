@@ -18,6 +18,7 @@
 		B31987171E484856002C6652 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319870C1E484856002C6652 /* UIViewController+Extensions.swift */; };
 		B31987181E484856002C6652 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319870D1E484856002C6652 /* UIStackView+Extension.swift */; };
 		B31987191E484856002C6652 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319870E1E484856002C6652 /* ReusableView.swift */; };
+		B339A71E1E4C4BDC0005B416 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B339A71D1E4C4BDC0005B416 /* UserDefaults+Extensions.swift */; };
 		D9899DD41DF4A092008766B5 /* Reuse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9899DCA1DF4A092008766B5 /* Reuse.framework */; };
 		D9899DD91DF4A093008766B5 /* ReuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9899DD81DF4A093008766B5 /* ReuseTests.swift */; };
 		D9899DDB1DF4A093008766B5 /* Reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = D9899DCD1DF4A092008766B5 /* Reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +47,7 @@
 		B319870C1E484856002C6652 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		B319870D1E484856002C6652 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		B319870E1E484856002C6652 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		B339A71D1E4C4BDC0005B416 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		D9899DCA1DF4A092008766B5 /* Reuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9899DCD1DF4A092008766B5 /* Reuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reuse.h; sourceTree = "<group>"; };
 		D9899DCE1DF4A092008766B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				D9899DE51DF4A372008766B5 /* Reuse.swift */,
 				D9899DCD1DF4A092008766B5 /* Reuse.h */,
 				D9899DCE1DF4A092008766B5 /* Info.plist */,
+				B339A71D1E4C4BDC0005B416 /* UserDefaults+Extensions.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B339A71E1E4C4BDC0005B416 /* UserDefaults+Extensions.swift in Sources */,
 				B31987131E484856002C6652 /* UILabel+Extensions.swift in Sources */,
 				B31987151E484856002C6652 /* UITextField+Extensions.swift in Sources */,
 				B31987171E484856002C6652 /* UIViewController+Extensions.swift in Sources */,
