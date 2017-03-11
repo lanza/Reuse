@@ -1,0 +1,19 @@
+PODS:
+  - Reuse (0.0.1):
+    - SwiftyUserDefaults
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Reuse (from `~/Documents/Reuse`)
+
+EXTERNAL SOURCES:
+  Reuse:
+    :path: "~/Documents/Reuse"
+
+SPEC CHECKSUMS:
+  Reuse: cdc2a0bb0940776143ef7e7bc251672cf524c199
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: dc3fcfe0e7e13f0154dfa5d0ad78e7d44b940001
+
+COCOAPODS: 1.2.0

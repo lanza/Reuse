@@ -1,0 +1,7 @@
+
+target 'iOS Example' do
+  use_frameworks!
+
+  pod 'Reuse', :path => '~/Documents/Reuse'  
+
+end
