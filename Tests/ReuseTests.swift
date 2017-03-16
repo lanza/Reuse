@@ -1,11 +1,3 @@
-//
-//  ReuseTests.swift
-//  ReuseTests
-//
-//  Created by Nathan Lanza on Feb 6, 2017.
-//  Copyright © 2017 Lanzaio. All rights reserved.
-//
-
 import XCTest
 @testable import Reuse
 
