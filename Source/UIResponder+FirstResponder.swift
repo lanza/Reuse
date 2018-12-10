@@ -11,7 +11,7 @@ public extension UIResponder {
         return UIResponder._currentFirstResponder
     }
     
-    internal func findFirstResponder(_ sender: Any) {
+  @objc internal func findFirstResponder(_ sender: Any) {
         UIResponder._currentFirstResponder = self
     }
 }

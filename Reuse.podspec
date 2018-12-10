@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'Reuse'
-  s.version = '0.0.1'
+  s.version = '0.1.0'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'A short description of Reuse.'
 
@@ -16,11 +16,10 @@ Pod::Spec.new do |s|
   TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage = 'https://github.com/nathanlanza/Reuse'
+  s.homepage = 'https://github.com/lanza/Reuse'
   s.authors = { 'Nathan Lanza' => 'nathan@lanza.io' }
-  s.source = { :git => 'https://github.com/nathanlanza/Reuse.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/lanza/Reuse.git', :tag => s.version }
   s.ios.deployment_target = '10.0'
   s.source_files = 'Source/*.swift'
-  s.dependency 'SwiftyUserDefaults'
 
 end

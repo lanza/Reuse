@@ -1,17 +1,17 @@
 import UIKit
 
 public extension UIStackView {
-    public convenience init(arrangedSubviews: [UIView], axis: UILayoutConstraintAxis, spacing: CGFloat, distribution: UIStackViewDistribution) {
+  public convenience init(arrangedSubviews: [UIView], axis: NSLayoutConstraint.Axis, spacing: CGFloat, distribution: UIStackView.Distribution) {
         self.init(arrangedSubviews: arrangedSubviews)
         self.axis = axis
         self.spacing = spacing
         self.distribution = distribution
     }
-    public convenience init(axis: UILayoutConstraintAxis, spacing: CGFloat, distribution: UIStackViewDistribution) {
+  public convenience init(axis: NSLayoutConstraint.Axis, spacing: CGFloat, distribution: UIStackView.Distribution) {
         self.init(arrangedSubviews: [], axis: axis, spacing: spacing, distribution: distribution)
     }
     
-    public func set(arrangedSubviews: [UIView], axis: UILayoutConstraintAxis, spacing: CGFloat, distribution: UIStackViewDistribution) {
+  public func set(arrangedSubviews: [UIView], axis: NSLayoutConstraint.Axis, spacing: CGFloat, distribution: UIStackView.Distribution) {
         while let first = arrangedSubviews.first {
             removeArrangedSubview(first)
         }
@@ -19,7 +19,7 @@ public extension UIStackView {
         self.spacing = spacing
         self.distribution = distribution
     }
-    public func set(axis: UILayoutConstraintAxis, spacing: CGFloat, distribution: UIStackViewDistribution) {
+  public func set(axis: NSLayoutConstraint.Axis, spacing: CGFloat, distribution: UIStackView.Distribution) {
         self.axis = axis
         self.spacing = spacing
         self.distribution = distribution
