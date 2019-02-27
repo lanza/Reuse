@@ -1,10 +1,10 @@
 import UIKit
 
 public extension UIButton {
-    public func setTitle(_ title: String) {
+    func setTitle(_ title: String) {
       setTitle(title, for: UIControl.State())
     }
-    public func setTitleColor(_ color: UIColor) {
+    func setTitleColor(_ color: UIColor) {
       setTitleColor(color, for: UIControl.State())
     }
     

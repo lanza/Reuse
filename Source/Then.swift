@@ -3,19 +3,19 @@ import Foundation
 public protocol Then {}
 
 public extension Then where Self: Any {
-    public func with(_ configuration: (inout Self) -> Void) -> Self {
+    func with(_ configuration: (inout Self) -> Void) -> Self {
         var copy = self
         configuration(&copy)
         return copy
     }
     
-    public func `do`(_ configuration: (Self) -> Void) {
+    func `do`(_ configuration: (Self) -> Void) {
         configuration(self)
     }
 }
 
 public extension Then where Self: AnyObject {
-    public func then(_ configuration: (Self) -> Void) -> Self {
+    func then(_ configuration: (Self) -> Void) -> Self {
         configuration(self)
         return self
     }
