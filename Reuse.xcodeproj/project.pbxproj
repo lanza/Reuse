@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64008791496754035D54E574 /* Pods_ReuseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C1B384337158499D5F1270 /* Pods_ReuseTests.framework */; };
 		B34560861E7A4841005C9EE6 /* CGColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34560791E7A4841005C9EE6 /* CGColor+Extensions.swift */; };
 		B34560871E7A4841005C9EE6 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345607A1E7A4841005C9EE6 /* KeyboardHandler.swift */; };
 		B34560881E7A4841005C9EE6 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345607B1E7A4841005C9EE6 /* ReusableView.swift */; };
@@ -39,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12C1B384337158499D5F1270 /* Pods_ReuseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReuseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34560791E7A4841005C9EE6 /* CGColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Extensions.swift"; sourceTree = "<group>"; };
 		B345607A1E7A4841005C9EE6 /* KeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		B345607B1E7A4841005C9EE6 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -61,38 +59,33 @@
 		D9899DD31DF4A092008766B5 /* ReuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9899DD81DF4A093008766B5 /* ReuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseTests.swift; sourceTree = "<group>"; };
 		D9899DDA1DF4A093008766B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E88AD18F05C90857C97C70D1 /* Pods_Reuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		178E3CCA457F08D30F36EB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9899DD01DF4A092008766B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9899DD41DF4A092008766B5 /* Reuse.framework in Frameworks */,
-				64008791496754035D54E574 /* Pods_ReuseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51817254971B58B70BF03D53 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E88AD18F05C90857C97C70D1 /* Pods_Reuse.framework */,
-				12C1B384337158499D5F1270 /* Pods_ReuseTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D9899DC01DF4A091008766B5 = {
 			isa = PBXGroup;
 			children = (
 				D9899DCC1DF4A092008766B5 /* Source */,
 				D9899DD71DF4A092008766B5 /* Tests */,
 				D9899DCB1DF4A092008766B5 /* Products */,
-				51817254971B58B70BF03D53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +152,7 @@
 				D9899DC51DF4A091008766B5 /* Sources */,
 				D9899DC71DF4A091008766B5 /* Headers */,
 				D9899DC81DF4A091008766B5 /* Resources */,
+				178E3CCA457F08D30F36EB0D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9899DE11DF4A093008766B5 /* Build configuration list for PBXNativeTarget "ReuseTests" */;
 			buildPhases = (
-				8BF40337E94CEA6A6A4F5492 /* [CP] Check Pods Manifest.lock */,
 				D9899DCF1DF4A092008766B5 /* Sources */,
 				D9899DD01DF4A092008766B5 /* Frameworks */,
 				D9899DD11DF4A092008766B5 /* Resources */,
-				ED08B33E735556E6A591BE6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,45 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8BF40337E94CEA6A6A4F5492 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReuseTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED08B33E735556E6A591BE6E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReuseTests/Pods-ReuseTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReuseTests/Pods-ReuseTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9899DC51DF4A091008766B5 /* Sources */ = {
